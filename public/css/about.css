@@ -1,8 +1,57 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        html, body {
+            height: 100%;
+            background-color: white;
+            color: #064E3B;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1rem 2rem;
+            background-color: #10B981;
+            color: white;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center; 
+            gap: 0.8rem; 
+        }
+
+        .logo img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: 2px solid white;
+        }
+
+        .logo-text {
+            font-weight: bold;
+            font-size: 1.2rem;
+            color: white;
+        }
 .about-section {
-    background-color: #F0FDF4; 
-    background: url('../images/aboutmebackground.jpg');
+    background: 
+        linear-gradient(rgba(6, 78, 59, 0.4), rgba(6, 78, 59, 0.4)), 
+        url('../images/aboutmebackground.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed; /* Makes it nice on large screens */
     padding: 3rem 2rem;
-    color: #064E3B;
+    color: white;
 }
 
 .about-container {
@@ -56,7 +105,11 @@
     line-height: 1.8;
     padding-left: 1rem;
 }
-  .footer {
+   .about-button:hover {
+            background-color: #0f9b72;
+        }
+
+        .footer {
             background-color: #064E3B;
             color: white;
             text-align: center;
