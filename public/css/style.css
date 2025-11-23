@@ -72,6 +72,60 @@
             color: white;
         }
 
+        .about-container {
+            max-width: 1000px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .about-title {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            color: #D1FAE5;
+        }
+
+        .about-description {
+            font-size: 1.1rem;
+            line-height: 1.7;
+            margin-bottom: 2rem;
+            color: #ECFDF5;
+        }
+
+        .about-cards {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .about-card {
+            background: white;
+            padding: 1.5rem;
+            width: 280px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+            text-align: left;
+            border-left: 6px solid #10B981;
+            transition: transform .3s;
+            color: #064E3B;
+        }
+
+        .about-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .about-card h3 {
+            font-size: 1.3rem;
+            color: #047857;
+            margin-bottom: .8rem;
+        }
+
+        .about-card ul {
+            line-height: 1.8;
+            padding-left: 1rem;
+        }
+
         .footer {
             background-color: #064E3B;
             color: white;
