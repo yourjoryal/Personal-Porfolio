@@ -95,7 +95,7 @@
             gap: 2rem;
             align-items: center;
             flex: 1; 
-            background: url('public/images/jory.jpg') no-repeat center center;
+            background: url("public/images/joryalmacin.jpg") no-repeat center center;
             background-size: cover;
         }
 
