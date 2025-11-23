@@ -129,7 +129,6 @@
         text-decoration: underline;
     }
 
-    /* 📱 MOBILE RESPONSIVE FIXES */
     @media (max-width: 768px) {
 
         header {
