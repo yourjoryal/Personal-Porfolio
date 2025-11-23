@@ -67,7 +67,7 @@
     .about-section {
         background:
             linear-gradient(rgba(6, 78, 59, 0.5), rgba(6, 78, 59, 0.5)),
-            url('public/images/aboutmebackground.jpg') no-repeat center center;
+            url('../images/aboutmebackground.jpg') no-repeat center center;
         background-size: cover;
         background-attachment: fixed;
         padding: 3rem 2rem;
@@ -128,6 +128,23 @@
         padding-left: 1rem;
     }
 
+            .skills-button {
+            display: block;
+            width: 200px;
+            margin: 30px auto;
+            padding: 12px 20px;
+            background-color: #27ae60;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 8px;
+            transition: background 0.3s;
+        }
+
+        .skills-button:hover {
+            background-color: #2ecc71;
+        }
    
     .footer {
         background-color: #064E3B;
