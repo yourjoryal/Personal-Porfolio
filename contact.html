@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Jory Almacin</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #F0FDF4;
+            color: #064E3B;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            align-items: center;
+            padding: 1rem 1.5rem;
+            background-color: #10B981;
+            color: white;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+        }
+
+        .logo img {
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            border: 2px solid white;
+        }
+
+        .logo-text {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        /* Contact Section */
+        .contact-section {
+            max-width: 700px;
+            margin: auto;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .contact-title {
+            font-size: 32px;
+            margin-bottom: 25px;
+            color: #10B981;
+        }
+
+        .contact-box {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .contact-box h3 {
+            font-size: 24px;
+            color: #059669;
+            margin-bottom: 20px;
+        }
+
+        .contact-box p {
+            font-size: 18px;
+            margin: 8px 0;
+        }
+
+        /* Back button */
+        .back-button {
+            display: block;
+            width: 200px;
+            margin: 40px auto 0;
+            text-align: center;
+            padding: 12px 18px;
+            background-color: #10B981;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        .back-button:hover {
+            background-color: #059669;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #064E3B;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 50px;
+        }
+
+        footer p {
+            margin-bottom: 8px;
+        }
+
+        footer a {
+            color: white;
+            font-weight: bold;
+            margin: 0 0.5rem;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .contact-title {
+                font-size: 26px;
+            }
+
+            .contact-box {
+                padding: 22px;
+            }
+
+            .contact-box h3 {
+                font-size: 20px;
+            }
+
+            .contact-box p {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">
+            <img src="public/images/joryalmacin.jpg" alt="Profile Photo">
+            <span class="logo-text">JORY ALMACIN</span>
+        </div>
+    </header>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section">
+        <h2 class="contact-title">Contact Me</h2>
+
+        <div class="contact-box">
+            
+            <p><strong>JORY ALMACIN</strong> </p>
+            <p><strong></strong> almacinjory@gmail.com</p>
+            <p><strong></strong> 0970 462 7910</p>
+
+            <p style="margin-top:20px; font-size:16px; color:#047857;">
+                For faster communication, you can click the links below in the footer.
+            </p>
+        </div>
+
+        <a href="index.html" class="back-button">⬅ Back to Home</a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Message me faster through:</p>
+        <a href="https://facebook.com/joryalism">Facebook</a> |
+        <a href="https://instagram.com/itsmejoryal">Instagram</a> |
+        <a href="https://tiktok.com/@not_ur_favss">TikTok</a> |
+        <a href="https://github.com/yourjoryal">GitHub</a>
+    </footer>
+
+</body>
+</html>
